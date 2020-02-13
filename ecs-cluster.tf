@@ -53,4 +53,3 @@ resource "aws_launch_configuration" "demo-cluster-lc" {
     create_before_destroy = true
   }
 }
-
