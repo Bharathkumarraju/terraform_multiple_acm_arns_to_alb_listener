@@ -12,7 +12,7 @@ data "aws_ami" "latest_ecs" {
     values = ["hvm"]
   }
 
-  owners = ["591542846629"] # AWS
+  owners = ["amazon"] # AWS
 }
 
 
