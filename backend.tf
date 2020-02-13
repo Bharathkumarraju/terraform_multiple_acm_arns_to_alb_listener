@@ -7,6 +7,6 @@ terraform {
     bucket = "bharaths-test-terraform-remote-state"
     key = "test"
     dynamodb_table = "bharaths-test-terraform-remote-state-locks"
-    region = "eu-west-2"
+    region = "us-east-1"
   }
 }
