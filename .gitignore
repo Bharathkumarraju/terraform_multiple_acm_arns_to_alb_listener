@@ -1,0 +1,13 @@
+.idea
+.terraform
+.git
+terraform.tfstate.d
+*.tfstate*
+
+**/.terraform
+**/.terraform/*
+.idea/*
+.terraform/*
+terraform.tfstate
+terraform.tfstate.backup
+terraform.*
