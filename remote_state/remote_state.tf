@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "bharath_tf_state_store" {
-  bucket = "bharaths-test-terraform-remote-state"
+  bucket = "bharaths-test-terraform-remote-state-us"
 
   # Prevent Accedental Delete of this bucket
   lifecycle {
@@ -25,7 +25,7 @@ resource "aws_s3_bucket" "bharath_tf_state_store" {
 
 resource "aws_dynamodb_table" "bharaths-terraform-locks" {
   hash_key = "LockID"
-  name = "bharaths-test-terraform-remote-state-locks"
+  name = "bharaths-test-terraform-remote-state-locks-us"
   billing_mode = "PAY_PER_REQUEST"
   attribute {
     name = "LockID"
